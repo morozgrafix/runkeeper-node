@@ -1,24 +1,28 @@
 {
   "name": "runkeeper-node",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "runkeeper-node",
   "main": "./lib/runkeeper",
   "repository": {
     "type": "git",
-    "url": "https://github.com/onderweg/runkeeper-node.git"
+    "url": "https://github.com/morozgrafix/runkeeper-node.git"
   },
   "author": "Gerwert",
-  "licenses": [
+  "contributors": [
     {
-      "type": "MIT",
-      "url": "http://www.opensource.org/licenses/mit-license.php"
+      "name": "morozgrafix",
+      "url": "https://morozgrafix.com"
     }
   ],
-  "homepage": "https://github.com/onderweg/runkeeper-node",
-  "devDependencies": {
-    "lodash": "^2.4.1",
+  "license": "MIT",
+  "homepage": "https://github.com/morozgrafix/runkeeper-node",
+  "dependencies": {
     "open": "0.0.5",
     "q": "^1.0.1",
+    "lodash": "^2.4.1",
     "request": "^2.40.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.13.1"
   }
 }
